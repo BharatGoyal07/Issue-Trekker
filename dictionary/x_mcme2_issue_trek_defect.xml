@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Defect" max_length="40" name="x_mcme2_issue_trek_defect" sizeclass="128" text_index="true" type="collection">
+        <element label="Caller" max_length="32" name="u_caller" reference="sys_user" type="reference"/>
+        <element label="Reference ticket" max_length="32" name="u_reference_ticket" reference="task" type="reference"/>
+    </element>
+</database>
